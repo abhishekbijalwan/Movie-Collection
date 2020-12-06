@@ -1,0 +1,126 @@
+
+ @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+ @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800,300italic,400italic,600italic,700italic,800italic);
+ .cellphone-container {
+	 width: 300px;
+	 height: 450px;
+	 background-color: #1e1b26;
+	 margin: 60px auto 0 auto;
+	 box-shadow: 5px 5px 115px -14px black;
+	 border-radius: 4px;
+}
+ .menu {
+	 position: absolute;
+	 right: 12px;
+	 top: 4px;
+	 z-index: 999;
+}
+ .menu i {
+     font-size: 40px;
+     font-weight: 900;
+	 color: #fe4141;
+     filter: drop-shadow(4px 4px 10px rgba(0, 0, 0, .5));
+     
+}
+.menu:hover{
+    transform: scale(1.2) ;
+    cursor: pointer;
+}
+ .movie-img {
+	 width: 300px;
+	 height: 380px;
+	 background-position: center;
+	 background-repeat: no-repeat;
+	 background-size: cover;
+	 z-index: 111 !important;
+	 border-top-left-radius: 4px;
+	 border-top-right-radius: 4px;
+	 -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(0, 0, 0, 1)), color-stop(0.35, rgba(0, 0, 0, 1)), color-stop(0.5, rgba(0, 0, 0, 1)), color-stop(0.65, rgba(0, 0, 0, 1)), color-stop(0.85, rgba(0, 0, 0, 0.6)), color-stop(1, rgba(0, 0, 0, 0)));
+	 position: relative;
+}
+ .movie {
+	 background: -moz-linear-gradient(top, rgba(255, 255, 255, 0) 38%, rgba(255, 255, 255, 0.06) 39%, rgba(30, 27, 38, 0.88) 53%, rgba(30, 27, 38, 1) 55%);
+	/* FF3.6-15 */
+	 background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 38%, rgba(255, 255, 255, 0.06) 39%, rgba(30, 27, 38, 0.88) 53%, rgba(30, 27, 38, 1) 55%);
+	/* Chrome10-25,Safari5.1-6 */
+	 background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 38%, rgba(255, 255, 255, 0.06) 39%, rgba(30, 27, 38, 0.88) 53%, rgba(30, 27, 38, 1) 55%);
+	/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	 filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00ffffff', endColorstr='#1e1b26',GradientType=0);
+	/* IE6-9 */
+	 position: absolute;
+	 background-size: contain;
+	 background-size: cover;
+	 z-index: 1 !important;
+	 width: 300px;
+	 height: 450;
+	 display: block;
+	 border-radius: 4px;
+}
+ .text-movie-cont {
+	 padding: 0px 12px;
+	 text-align: justify;
+}
+ 
+
+ 
+/* TYPOGRAPHY STARTS */
+/* Fonts */
+ h1{
+	 font-family: 'Montserrat', sans-serif;
+	 color: #e7e7e7;
+	 margin: 0px;
+}
+ h1 {
+	 font-size: 20px;
+	 font-weight: 400;
+}
+ 
+ 
+ .movie-gen {
+	 margin: 0px;
+     padding: 0px;
+}
+ .movie-gen li{
+	 font-family: 'Open Sans', sans-serif;
+	 font-size: 12px;
+	 color: #818181;
+	 width: auto;
+	 display: block;
+	 float: left;
+	 font-weight: 600;
+}
+ 
+
+/* TYPOGRAPHY ENDS */
+/** GRID STARTS **/
+ .thegrid {
+	 margin: 0 auto;
+}
+ .mr-grid {
+	 width: 100%;
+}
+.title{
+    overflow: hidden;
+    height:30px ;
+}
+ .mr-grid:before, .mr-grid:after {
+	 content: "";
+	 display: table;
+}
+ .mr-grid:after {
+	 clear: both;
+}
+ .mr-grid {
+	 *zoom: 1;
+}
+ .col1{
+	 margin: 0% 0.5% 0.5% 0.5%;
+	 padding: 1%;
+	 float: left;
+	 display: block;
+}
+/* Columns match, minus margin sum. E.G. margin-left+margin-right=1%, col2=50%-1% - added padding:1%*/
+ .col1 {
+	 width: 98%;
+}
+ 
